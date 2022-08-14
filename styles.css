@@ -1,0 +1,99 @@
+
+
+body {
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
+}
+h2 {
+    color: hsl(158, 36%, 37%);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 85%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container {
+    padding: 1.5em;
+}
+
+.btn {
+    text-align: center;
+}
+
+button {
+    padding: 1em 8em;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+.product-info {
+    line-height: 170%;
+}
+.pricing {
+    display: flex;
+    
+}
+
+.original-price {
+    color: hsl(228, 12%, 48%);
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    text-decoration: line-through;
+}
+
+@media (min-width:600px) {
+    .card {
+        max-width: 400px;
+    }
+
+}
+
+@media (min-width: 950px) {
+    .card {
+        flex-direction: row;
+        max-width: 600px;
+        max-height: 400px;
+    }
+    .container {
+        padding: 2em;
+        width: 50%;
+    }
+    picture {
+        width: 60%;
+        object-fit: cover;
+    }
+
+    button {
+        font-size: .70rem;
+    }
+    
+    
+}
+
